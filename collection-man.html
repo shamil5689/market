@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/collection.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header cream-color">
+        <div class="header__container container">
+            <div class="header__logo logo">
+                <a href="index.html" class="logo__link">
+                    <img src="img/logo.svg" alt="logo" class="logo__img">
+                </a>
+            </div>
+            <a href="index.html" class="header__admin">выйти</a>
+            <div class="header__basket header-basket">
+                <a href="#" class="header-basket__link">
+                    <!-- <img src="img/shopping-basket-button.svg" alt="" class="header-basket__img"> -->
+                </a>
+                <span class="header-basket__span">0</span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="collection">
+            <div class="collection__container container">
+                <h2 class="collection__heading heading">
+                    Мужская коллекция
+                </h2>
+                <ul class="catalog-list catalog-list--man">
+                    <!-- <li class="catalog-list__item">
+                        <img src="#" alt="" class="catalog-list__img">
+                        <h3 class="catalog-list__description">Коктельное <br> платье</h3>
+                        <strong class="catalog-list__price">₽ 40 000</strong>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+        <div class="my-modal hidden">
+            <div class="my-modal__container">
+                <div class="my-modal__content">
+                    <button class="my-modal__close-button"><img src="img/close.png" width="18px" alt="" class="modal__img"></button>
+                    <!-- <h1 class="modal__title">Контент для примера</h1>      -->
+                    <p class="my-modal__description">Добавлено!</p>
+                    <a href="basket.html" class="my-modal__link">Перейти в корзину</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/components/collection-man.js" defer type="module"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.header{
+    height: 146px;
+    &__container{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    .nav{
+        margin-right: 94px;
+        &__list{
+            display: flex;
+        }
+        &__item:not(:last-child){
+            margin-right: 17px;
+        }
+        &__link{
+            font-size: 14px;
+            line-height: 17px;
+            font-weight: 500;
+            color: $black-color;
+        }
+    }
+    &__logo{
+        margin-right: auto;
+    }
+    .header-basket{
+        position: relative;
+        padding-right: 65px;
+        &__link{
+            background-image: url(../img/shopping-basket-button.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+        }
+        &__span{
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: $white-color;
+            position: absolute;
+            left: 46px;
+            top: 3px;
+            background-image: url(../img/arrow.svg);
+            padding: 6px 26px;
+            background-repeat: no-repeat;
+            background-position: 0 center;
+        }
+    }
+}

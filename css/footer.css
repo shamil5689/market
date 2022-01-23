@@ -1,0 +1,58 @@
+.footer {
+  padding-top: 76px;
+  padding-bottom: 69px;
+}
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-logo {
+  margin-right: auto;
+}
+.footer .footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .footer-info__card:not(:last-child) {
+  margin-right: 80px;
+}
+.footer .footer-info__heading {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.footer .footer-info__item {
+  margin-bottom: 10px;
+}
+.footer .footer-info__link {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #CBCFD4;
+}
+.footer .footer-info__network {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+.footer .footer-info__vk {
+  background-image: url("../img/vk.svg");
+  right: 47px;
+  top: 3px;
+}
+.footer .footer-info__facebook {
+  background-image: url("../img/facebook.svg");
+  right: 60px;
+  top: 1px;
+}
+.footer .footer-info__instagram {
+  background-image: url("../img/instagram.svg");
+  right: 64px;
+}

@@ -1,0 +1,54 @@
+.section-sale{
+    padding-top: 103px;
+    padding-bottom: 162px;
+
+    &__container{
+        display: flex;
+        min-height: 316px;
+    }
+    &__left, &__right{
+        min-height: 100%;
+    }
+    &__span{
+        display: block;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 0.02em;
+        color: $black-color;
+        margin-bottom: 25px;
+    }
+    &__heading{
+        margin-bottom: 45px;
+        color: $black-color;
+    }
+    &__discount{
+        font-size: 48px;
+        letter-spacing: 11px;
+    }
+}
+.article{
+    width: 50%;
+    font-weight: 700;
+    background-image: url(../img/running_shoes_PNG5823.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+
+    &__s-price{
+    font-size: 24px;
+    line-height: 41px;
+    letter-spacing: 4.6px;
+    color: $black-color;
+    margin-bottom: 7px
+    }
+    &__price{
+        font-size: 42px;
+        line-height: 51px;
+        letter-spacing: 0.02em;
+        color: $red-color;
+    }
+}

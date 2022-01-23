@@ -1,0 +1,27 @@
+.section-collection {
+  padding-top: 63px;
+}
+.section-collection__container {
+  max-width: 1100px;
+}
+.section-collection .collection-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section-collection .collection-list__item {
+  min-height: 189px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 500px;
+          flex: 1 1 500px;
+  background-position: right bottom;
+}
+.section-collection .collection-list__item:nth-child(1) {
+  background-image: url(../img/man.png);
+  background-repeat: no-repeat;
+  margin-right: auto;
+}
+.section-collection .collection-list__item:nth-child(2) {
+  background-image: url(../img/woman.png);
+  background-repeat: no-repeat;
+}
